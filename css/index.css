@@ -1,5 +1,5 @@
 @charset "utf-8";
-html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td, textarea { margin: 0; padding: 0; font: normal 100% Helvetica; font-size: 0.98em; line-height: 100%; color: #ffcd5c; font-family: 'microsoft yahei',verdana,Tahoma; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td, textarea { margin: 0; padding: 0; font: normal 100% Helvetica; font-size: 0.98em; line-height: 100%; color: #ffcd5c; font-family: 'microsoft yahei',verdana,Tahoma; }
 ol, ul, li { list-style: none; line-height: 250%; }
 ol, ul { zoom: 1; }
 h1, h2, h3, h4, h5, h6 { font-size: 100%; }
@@ -20,9 +20,9 @@ a:hover { cursor: pointer; }
 
 
 body {
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    /*width: 100vw;
-    height: 100vh;*/
+    background: radial-gradient( #1b2735 0%, #090a0f 100%);
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
     justify-content: center;
     align-items: center;
