@@ -6,6 +6,9 @@
     <title>诗人网站</title>
 </head>
 <body>
+<div class="canvas-box">
+    <canvas id="canvas">你的浏览器不支持canvas</canvas>
+</div>
 <div class="nav-main">
     <div class="nav-box">
         <div class="nav">
@@ -75,15 +78,13 @@
 
 </div>
 
-<div class="canvas-box">
-    <canvas id="canvas">你的浏览器不支持canvas</canvas>
-</div>
+
 
 <script>
     var WINDOW_WIDTH = document.body.offsetWidth;
     var WINDOW_HEIGHT = document.body.offsetHeight;
     var canvas,context;
-    var num = 120;
+    var num = 130;
     var stars = [];
     var mouseX = WINDOW_WIDTH/2;
     var mouseY = WINDOW_HEIGHT/2;
