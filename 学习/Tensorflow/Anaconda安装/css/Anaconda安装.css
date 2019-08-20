@@ -1,5 +1,5 @@
 @charset "utf-8";
-dl, dt, dd, ul, ol, li { margin: 0; padding: 0; font-size: 14px; line-height: 24px; color: #ffcd5c; font-family: 'microsoft yahei',verdana,Tahoma; }
+dl, dt, dd, ul, ol, li { margin: 0; padding: 0; font: normal 100% Helvetica; font-size: 0.98em; line-height: 100%;; color: #ffcd5c; font-family: 'microsoft yahei',verdana,Tahoma; }
 ol, ul, li { list-style: none; line-height: 22px; }
 ol, ul { zoom: 1; }
 a, a:link, a:visited { cursor: pointer; text-decoration: none;}
@@ -36,9 +36,8 @@ canvas {
     padding-top: 20px;
 }
 .characters p{
-    color: #5f91ff;
-    margin: 20px 25px;
-    font-size: 30px;
+    /*margin: 20px 25px;*/
+    color: #ffcd5c;
 }
 .titletop{
     background-color: rgba(0,0,0,0.3);
@@ -72,6 +71,7 @@ canvas {
     -webkit-transform-style: preserve-3d;
     height: 100%;
     z-index: 99;
+    top: -2%;
 }
 .nav-ul li a{
     display: block;
@@ -121,7 +121,6 @@ canvas {
     margin-top: 60%;
     position: relative;
     z-index: 1;
-
 }
 .nav-slide{
     position: fixed;
